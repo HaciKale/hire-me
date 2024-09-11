@@ -1,0 +1,33 @@
+.child {
+    width: 80vw;
+    padding: 10px 15px;
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin: 5px 0;
+    > .name {
+        font-weight: bold;
+    }
+    > .actions {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+
+        > button {
+            height: 40px;
+            width: 140px;
+            border-radius: 16px;
+            border: 2px solid var(--text-color);
+            font-weight: bold;
+            cursor: pointer;
+            background: var(--background-color);
+            &:hover {
+                background: var(--text-color);
+                color: var(--background-color);
+            }
+        }
+    }
+}
