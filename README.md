@@ -8,7 +8,7 @@ I AM VERY INTERESTED! 😍
 - cd hire-me/haci
 - npm i;
 - npm run dev;
-- it should be working, if it doesn't call support on +4528102814(joke😂).
+- it should be working, if it doesn't call support on (insert my number).
 
 some of my decisions: 
 - I usually do the components folders, I like to have everything related gathered in the same place 
